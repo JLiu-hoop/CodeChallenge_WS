@@ -1,5 +1,4 @@
 package ws_codechallenge;
-import java.io.File;
 /*
  * Test Class: test_case
  * Description: test_case is a test class for srouce code which includes three methods

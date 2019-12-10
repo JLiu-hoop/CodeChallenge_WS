@@ -21,6 +21,18 @@ public class CodeRangeHelper {
 		this.low_bound = "0";
 		this.high_bound = "0";
 	}
+	
+	
+	/*
+	 * (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return this.low_bound + "," + this.high_bound;
+	}
+	
+	
 	/*
 	 * Constructor with two parameter
 	 * @param high is the high_bound
@@ -60,15 +72,5 @@ public class CodeRangeHelper {
 	public void setHigh_bound(int high_bound) {
 		this.high_bound = Integer.toString(high_bound);
 	}
-	
-	/*
-	 * (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 */
-	@Override
-	public String toString() {
-		return this.low_bound + "," + this.high_bound;
-	}
-	
-	
+
 }
