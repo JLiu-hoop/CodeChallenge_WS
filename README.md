@@ -78,6 +78,8 @@ class LogicClass{
 ```
 So, any piece of code has bugs, I can easy to local it and fix it.
 
+![image](https://user-images.githubusercontent.com/58745796/70560290-31c26580-1b3d-11ea-93ad-c1bd57c232c7.png)
+
 
 Other design patterns also can used in this code challenge, and I am going to optimize my source code in the future.
 
@@ -93,12 +95,16 @@ Here, I give several test cases:
 - Alphabet input
 - Outbound input
 
+![image](https://user-images.githubusercontent.com/58745796/70560128-e27c3500-1b3c-11ea-89f0-32170636068f.png)
+
 
 I surly believe that there other edge cases I didn't covert. For this challenge, those test cases input should good enought to handle all kind input csv files.
 
 ## Encapsulation
 Encapsualtion is one of the four OOPs concepts which can protect the data from Enterprises's database.
 Human error is inevitable, so set data from database into private can protect those kind mistakes.
+
+![image](https://user-images.githubusercontent.com/58745796/70560253-1eaf9580-1b3d-11ea-9fcd-13a9a87242cf.png)
 
 
 Also, it's a really good habit to use Encapsulation in OOPs language
